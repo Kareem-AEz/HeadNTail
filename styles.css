@@ -128,16 +128,24 @@ strong{
     color: #FFC033;
 }
 
-@media (max-width: 1024px){
-    .main{
+@media (max-width: 1024px) {
+    .main_text{
+        gap: 20px;
+        font-size: 3rem;
+    }
+    .main_img{
+        height: 200px;
+        width: 200px;
+    }
+    .main {
         flex-direction: column;
         margin-top: 90px;
-        gap: 95px;
+        gap: 75px;
     }
-    .main_text{
+    .main_text {
         order: 1;
     }
-    footer{
+    footer {
         margin-top: 100px;
     }
 }
